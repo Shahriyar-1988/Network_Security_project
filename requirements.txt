@@ -1,0 +1,13 @@
+numpy 
+pandas
+matplotlib
+scikit-learn
+pymongo
+pymongo[srv]==3.12
+mlflow
+joblib 
+pyYAML
+dotenv
+ipykernel
+certifi
+# -e .
