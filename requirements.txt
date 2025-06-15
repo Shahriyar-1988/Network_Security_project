@@ -10,4 +10,6 @@ pyYAML
 dotenv
 ipykernel
 certifi
+python-box
+ensure
 # -e .

@@ -1,0 +1,7 @@
+2025-06-12 12:22:21,060 - INFO -  yaml file schema.yaml loaded successfully!
+2025-06-12 12:22:21,061 - INFO - Performed train test split on the dataframe
+2025-06-12 12:22:21,061 - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+2025-06-12 12:22:21,061 - INFO - Exporting train and test file path.
+2025-06-12 12:22:21,123 - INFO - Exported train and test file path.
+2025-06-12 12:22:21,123 - INFO -  yaml file schema.yaml loaded successfully!
+2025-06-12 12:22:31,002 - INFO - YAML file written to Artifacts\06_12_2025_12_22_14\data_validation\drift_report\report.yaml

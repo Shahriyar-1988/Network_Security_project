@@ -1,0 +1,5 @@
+2025-06-12 12:07:25,871 - INFO -  yaml file schema.yaml loaded successfully!
+2025-06-12 12:07:25,887 - INFO - Performed train test split on the dataframe
+2025-06-12 12:07:25,887 - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+2025-06-12 12:07:25,888 - INFO - Exporting train and test file path.
+2025-06-12 12:07:25,961 - INFO - Exported train and test file path.
