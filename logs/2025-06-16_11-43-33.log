@@ -1,0 +1,10 @@
+2025-06-16 11:43:36,768 - INFO - >>>> Pipeline Execution Started <<<<
+2025-06-16 11:43:41,379 - INFO -  yaml file schema.yaml loaded successfully!
+2025-06-16 11:43:41,389 - INFO - Performed train test split on the dataframe
+2025-06-16 11:43:41,389 - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+2025-06-16 11:43:41,389 - INFO - Exporting train and test file path.
+2025-06-16 11:43:41,448 - INFO - Exported train and test file path.
+2025-06-16 11:43:41,456 - INFO -  Data Ingestion Completed.
+2025-06-16 11:48:22,425 - INFO -  yaml file schema.yaml loaded successfully!
+2025-06-16 11:48:27,802 - INFO - \u2705 Data Validation Completed.
+2025-06-16 11:48:47,368 - INFO -  yaml file schema.yaml loaded successfully!

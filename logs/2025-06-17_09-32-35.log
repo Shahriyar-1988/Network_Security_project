@@ -1,0 +1,37 @@
+2025-06-17 09:33:26,054 - INFO - >>>> Pipeline Execution Started <<<<
+2025-06-17 09:33:29,860 - INFO -  yaml file schema.yaml loaded successfully!
+2025-06-17 09:33:29,968 - INFO - Performed train test split on the dataframe
+2025-06-17 09:33:29,969 - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+2025-06-17 09:33:29,969 - INFO - Exporting train and test file path.
+2025-06-17 09:33:30,086 - INFO - Exported train and test file path.
+2025-06-17 09:33:30,086 - INFO -  Data Ingestion Completed.
+2025-06-17 09:33:30,089 - INFO -  yaml file schema.yaml loaded successfully!
+2025-06-17 09:33:30,294 - INFO -  Data Validation Completed.
+2025-06-17 09:33:30,299 - INFO -  yaml file schema.yaml loaded successfully!
+2025-06-17 09:33:30,314 - INFO - Entered initiate_data_transformation method of DataTransformation class
+2025-06-17 09:33:30,315 - INFO - Starting data transformation
+2025-06-17 09:33:30,360 - INFO - Entered get_data_trnasformer method of Trnasformation class
+2025-06-17 09:33:30,360 - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 4, 'weights': 'uniform'}
+2025-06-17 09:33:30,384 - INFO -  NumPy array saved successfully to Artifacts\06_17_2025_09_33_26\data_transformation\transformed\train.npy
+2025-06-17 09:33:30,384 - INFO -  NumPy array saved successfully to Artifacts\06_17_2025_09_33_26\data_transformation\transformed\test.npy
+2025-06-17 09:33:30,412 - INFO - Object was saved successfully
+2025-06-17 09:33:30,412 - INFO -  Data Transformation Completed.
+2025-06-17 09:33:30,419 - INFO -  yaml file params.yaml loaded successfully!
+2025-06-17 09:33:30,427 - INFO -  NumPy array loaded successfully from Artifacts\06_17_2025_09_33_26\data_transformation\transformed\train.npy
+2025-06-17 09:33:30,428 - INFO - Started model training using model_fitter function.
+2025-06-17 09:33:30,445 - INFO - Training started for model: Random Forest
+2025-06-17 09:33:54,653 - INFO - Random Forest - Train F1: 0.991, Val F1: 0.977, F1 Gap: 0.014
+2025-06-17 09:33:54,653 - INFO - Training started for model: Decision Tree
+2025-06-17 09:33:55,835 - INFO - Decision Tree - Train F1: 0.991, Val F1: 0.971, F1 Gap: 0.021
+2025-06-17 09:33:55,835 - INFO - Training started for model: Gradient Boosting
+2025-06-17 09:36:08,923 - INFO - Gradient Boosting - Train F1: 0.967, Val F1: 0.965, F1 Gap: 0.002
+2025-06-17 09:36:08,923 - INFO - Training started for model: AdaBoost
+2025-06-17 09:36:24,369 - INFO - AdaBoost - Train F1: 0.926, Val F1: 0.931, F1 Gap: 0.005
+2025-06-17 09:36:24,369 - INFO - Training started for model: Logistic Regression
+2025-06-17 09:36:25,781 - INFO - Logistic Regression - Train F1: 0.928, Val F1: 0.933, F1 Gap: 0.005
+2025-06-17 09:36:25,781 - INFO - Completed model training for all models.
+2025-06-17 09:36:25,782 - INFO -  Selected non-overfitting model: Random Forest
+2025-06-17 09:36:25,782 - INFO - The best training score on this dataset is 0.977406915355219
+2025-06-17 09:36:26,061 - INFO - Object was saved successfully
+2025-06-17 09:36:26,064 - INFO -  Model Training Completed.
+2025-06-17 09:36:26,064 - INFO - >>>> Pipeline Execution Finished Successfully  <<<<

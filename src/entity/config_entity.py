@@ -1,4 +1,4 @@
-# Activate only when testing this code individually
+## Activate only when testing this code individually
 # import sys
 # import os
 
@@ -61,7 +61,8 @@ class DataTransformationConfig:
         self.data_transformation_dir=os.path.join(config.artifact_dir,data_transformation_const.DATA_TRANSFORMATION_DIR_NAME)
         self.transformed_data_dir=os.path.join(self.data_transformation_dir,data_transformation_const.DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR)
         self.transformed_train_file_path=os.path.join(self.transformed_data_dir,
-                                                      data_transformation_const.DATA_TRANSFORMATION_TRAIN_FILE_PATH)
+                                                      data_transformation_const.DATA_TRANSFORMATION_TRAIN_FILE_PATH,
+                                                      )
         
         self.transformed_test_file_path = os.path.join(self.transformed_data_dir,
                                                       data_transformation_const.DATA_TRANSFORMATION_TEST_FILE_PATH)

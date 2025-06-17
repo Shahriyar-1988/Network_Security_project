@@ -1,0 +1,22 @@
+2025-06-16 14:19:54,633 - INFO - >>>> Pipeline Execution Started <<<<
+2025-06-16 14:19:59,065 - INFO -  yaml file schema.yaml loaded successfully!
+2025-06-16 14:19:59,079 - INFO - Performed train test split on the dataframe
+2025-06-16 14:19:59,079 - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+2025-06-16 14:19:59,079 - INFO - Exporting train and test file path.
+2025-06-16 14:19:59,137 - INFO - Exported train and test file path.
+2025-06-16 14:19:59,137 - INFO -  Data Ingestion Completed.
+2025-06-16 14:19:59,137 - INFO -  yaml file schema.yaml loaded successfully!
+2025-06-16 14:19:59,242 - INFO -  Data Validation Completed.
+2025-06-16 14:19:59,248 - INFO -  yaml file schema.yaml loaded successfully!
+2025-06-16 14:19:59,248 - INFO - Entered initiate_data_transformation method of DataTransformation class
+2025-06-16 14:19:59,250 - INFO - Starting data transformation
+2025-06-16 14:19:59,274 - INFO - Entered get_data_trnasformer method of Trnasformation class
+2025-06-16 14:19:59,274 - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 4, 'weights': 'uniform'}
+2025-06-16 14:19:59,295 - INFO -  NumPy array saved successfully to Artifacts\06_16_2025_14_19_54\data_transformation\transformed\train.npy
+2025-06-16 14:19:59,300 - INFO -  NumPy array saved successfully to Artifacts\06_16_2025_14_19_54\data_transformation\transformed\test.npy
+2025-06-16 14:19:59,304 - INFO - Object was saved successfully
+2025-06-16 14:19:59,305 - INFO -  Data Transformation Completed.
+2025-06-16 14:19:59,308 - INFO -  yaml file params.yaml loaded successfully!
+2025-06-16 14:20:11,788 - INFO -  NumPy array loaded successfully from Artifacts\06_16_2025_14_19_54\data_transformation\transformed\train.npy
+2025-06-16 14:20:20,132 - INFO - Started model training using model_fitter function.
+2025-06-16 14:20:20,152 - INFO - Training started for model: Random Forest

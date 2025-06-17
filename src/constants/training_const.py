@@ -7,3 +7,4 @@ FILE_NAME: str = "phisingData.csv"
 
 TRAIN_FILE_NAME: str = "train.csv"
 TEST_FILE_NAME: str = "test.csv"
+FINAL_MODEL_PATH: str= 'artifacts/final_model'

@@ -27,4 +27,5 @@ class ClassificationArtifact:
 class ModelTrainerArtifact:
     trained_model_file_path: str
     trained_model_metric_artifact: ClassificationArtifact
+    trained_model_name:str
     

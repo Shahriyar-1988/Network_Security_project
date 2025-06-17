@@ -1,0 +1,3 @@
+2025-06-17 11:04:35,172 - INFO - Using latest artifact directory: artifacts\06_17_2025_10_42_15
+2025-06-17 11:04:35,308 - INFO -  No Drift Detected.
+2025-06-17 11:04:35,314 - INFO -  Drift report saved to: artifacts\06_17_2025_10_42_15\data_validation\drift_report.yaml

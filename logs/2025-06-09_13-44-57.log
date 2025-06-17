@@ -1,4 +1,0 @@
-2025-06-09 13:45:19,476 - INFO - Performed train test split on the dataframe
-2025-06-09 13:45:22,106 - INFO - Exited split_data_as_train_test method of Data_Ingestion class
-2025-06-09 13:45:34,714 - INFO - Exporting train and test file path.
-2025-06-09 13:45:39,594 - INFO - Exported train and test file path.

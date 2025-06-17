@@ -1,0 +1,16 @@
+2025-06-16 13:32:42,125 - INFO - >>>> Pipeline Execution Started <<<<
+2025-06-16 13:32:45,863 - INFO -  yaml file schema.yaml loaded successfully!
+2025-06-16 13:32:45,875 - INFO - Performed train test split on the dataframe
+2025-06-16 13:32:45,875 - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+2025-06-16 13:32:45,876 - INFO - Exporting train and test file path.
+2025-06-16 13:32:45,943 - INFO - Exported train and test file path.
+2025-06-16 13:32:45,943 - INFO -  Data Ingestion Completed.
+2025-06-16 13:32:45,946 - INFO -  yaml file schema.yaml loaded successfully!
+2025-06-16 13:32:46,043 - INFO -  Data Validation Completed.
+2025-06-16 13:32:46,048 - INFO -  yaml file schema.yaml loaded successfully!
+2025-06-16 13:32:46,049 - INFO - Entered initiate_data_transformation method of DataTransformation class
+2025-06-16 13:32:46,049 - INFO - Starting data transformation
+2025-06-16 13:32:46,074 - INFO - Entered get_data_trnasformer method of Trnasformation class
+2025-06-16 13:32:46,075 - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 4, 'weights': 'uniform'}
+2025-06-16 13:33:27,389 - INFO -  NumPy array saved successfully to Artifacts\06_16_2025_13_32_42\data_transformation\transformed\train.npy
+2025-06-16 13:33:39,735 - ERROR -  Pipeline execution failed due to error: isinstance() arg 2 must be a type, a tuple of types, or a union
