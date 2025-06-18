@@ -90,4 +90,4 @@ Built to simulate a production-grade ML system in the security domain. This proj
 ---
 
 Feel free to explore, fork, or ask questions!  
-> **Author**: Shahriyar M. | 2025
+> **Author**: Shahriyar A. | 2025
