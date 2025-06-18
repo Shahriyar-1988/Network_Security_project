@@ -8,7 +8,7 @@ This is a showcase project to present my abilities in the development and deploy
 ## 🚀 Project Highlights
 
 - **Modular Pipeline** using custom components for:
-  - ✅ Data ingestion, validation, and transformation  
+  - ✅ Data ingestion from MongoDB, validation, and transformation  
   - ✅ Model training, tuning (via `GridSearchCV`), and evaluation  
   - ✅ Overfitting/underfitting checks and drift detection  
   - ✅ MLflow logging for experiment tracking  
