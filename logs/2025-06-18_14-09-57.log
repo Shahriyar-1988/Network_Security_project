@@ -1,0 +1,12 @@
+2025-06-18 14:10:12,338 - INFO - Starting batch prediction from Artifacts\06_18_2025_12_37_31\data_validation\validated
+2025-06-18 14:10:13,838 - INFO - Object was loaded successfully
+2025-06-18 14:10:13,838 - INFO - FinalModel loaded successfully
+2025-06-18 14:10:13,850 - INFO - Predicting on file: test.csv
+2025-06-18 14:10:14,109 - INFO - Saved predictions to: batch_predictions\test_20250618_141013.csv
+2025-06-18 14:10:14,110 - INFO - Batch prediction completed!
+2025-06-18 14:14:19,321 - INFO - Starting batch prediction from E:\SFU files\Machine_learning_specialization\Portfolio_projects\Network_Security\Artifacts\06_18_2025_12_37_31\data_validation\validated
+2025-06-18 14:14:19,396 - INFO - Object was loaded successfully
+2025-06-18 14:14:19,397 - INFO - FinalModel loaded successfully
+2025-06-18 14:14:19,406 - INFO - Predicting on file: test.csv
+2025-06-18 14:14:19,498 - INFO - Saved predictions to: batch_predictions\test_20250618_141419.csv
+2025-06-18 14:14:19,503 - INFO - Batch prediction completed!

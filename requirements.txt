@@ -9,7 +9,7 @@ joblib
 pyYAML
 dotenv
 ipykernel
-certifi
 python-box
 ensure
+streamlit
 # -e .
