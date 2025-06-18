@@ -46,13 +46,13 @@ class ModelEvaluation:
     @staticmethod
     def save_final_model(preprocessor_path:str, 
                          model: object,
-                         save_path:str):
+                         save_path:str)->None:
         preprocessor=load_bin(preprocessor_path)
         final_model=FinalModel(preprocessor=preprocessor,
                                model=model)
         Path(os.path.dirname(save_path)).mkdir(parents=True, exist_ok=True)
         save_bin(save_path, final_model)
-        return final_model        
+             
         
     def initiate_model_evaluation(self):
         test_data_path=self.data_transformation_artifact.transformed_test_data_path
@@ -67,10 +67,12 @@ class ModelEvaluation:
                           train_classification_report=asdict(self.model_evaluation_config.trained_model_metric_artifact),
                           test_classification_report=asdict(test_classification_report)
         )
-        # Saving the finally tested model for deployment into artifacts
+         # Saving the finally tested model along with its preprocessor for deployment
         ModelEvaluation.save_final_model(preprocessor_path=self.data_transformation_artifact.transformation_object_path,
                                          model=model,
                                          save_path=FINAL_MODEL_PATH)
+       
+    
         
     
 
