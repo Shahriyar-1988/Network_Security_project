@@ -14,6 +14,8 @@ This is a showcase project to present my abilities in the development and deploy
   - ✅ MLflow logging for experiment tracking  
   - ✅ Batch prediction support for incoming CSVs  
   - ✅ Streamlit app for interactive use
+  - ✅ Docker support
+  - ✅ CI/CD with GitHub Actions
 
 - **Preprocessing**
   - Missing value imputation with `KNNImputer`
@@ -34,7 +36,17 @@ This is a showcase project to present my abilities in the development and deploy
   - ✅ Streamlit app for CSV-based prediction and visualization
 
 ---
+## 🛠 Tech Stack
 
+- Python 3.11
+- Scikit-learn, Pandas, NumPy
+- MLflow for experiment tracking
+- Streamlit for UI
+- Docker for containerization
+- GitHub Actions for CI
+- YAML-based configuration
+
+---
 ## 📁 Folder Structure
 
 ```
@@ -52,6 +64,7 @@ This is a showcase project to present my abilities in the development and deploy
 ├── main.py                 # Training pipeline trigger
 └── requirements.txt
 ```
+
 
 ---
 
@@ -80,6 +93,30 @@ Track all training metrics, parameters, and models via MLflow by setting:
 ```env
 MLFLOW_TRACKING_URI=<your_tracking_uri>
 ```
+## 🐳 Docker Support
+
+Build the Docker image:
+
+```bash
+docker build -t network_security_app .
+```
+
+Run batch prediction using mounted volumes:
+
+```bash
+docker run -v /local/input:/data/in -v /local/output:/data/out network_security_app
+```
+---
+
+## ✅ CI/CD with GitHub Actions
+
+This project uses GitHub Actions to:
+
+- Install dependencies
+- Run unit tests
+- Ensure reproducibility of builds
+
+See `.github/workflows/main.yml`.
 
 ---
 
