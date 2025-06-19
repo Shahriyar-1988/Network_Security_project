@@ -1,5 +1,5 @@
 
-# 🔐 Network Security – End-to-End ML Pipeline
+# 🔐 Network Security : End-to-End ML Pipeline
 
 This is a showcase project to present my abilities in the development and deployment of an end-to-end machine learning pipeline, with a focus on **cybersecurity and malicious URL detection**. The project demonstrates my skills across the ML lifecycle — from data ingestion to production-ready deployment.
 
