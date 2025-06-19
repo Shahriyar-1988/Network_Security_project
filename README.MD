@@ -38,7 +38,7 @@ This is a showcase project to present my abilities in the development and deploy
 ---
 ## 🛠 Tech Stack
 
-- Python 3.11
+- Python 3.12
 - Scikit-learn, Pandas, NumPy
 - MLflow for experiment tracking
 - Streamlit for UI
