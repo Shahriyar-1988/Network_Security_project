@@ -2,11 +2,13 @@ name: Run ML Pipeline (Training Workflow)
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
+    paths-ignore:
+      - README.md
   pull_request:
-    branches: [ main ]
-  paths_ignore:
-    - "README.md"
+    branches: [main]
+    paths-ignore:
+      - README.md
 
 jobs:
   ml-pipeline:
@@ -32,7 +34,7 @@ jobs:
 
   docker-image:
     runs-on: ubuntu-latest
-    needs: ml-pipeline  # Wait until ML pipeline completes
+    needs: ml-pipeline
 
     steps:
       - name: Checkout repository
